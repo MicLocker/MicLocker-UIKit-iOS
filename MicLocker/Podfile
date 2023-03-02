@@ -6,5 +6,10 @@ target 'MicLocker' do
   use_frameworks!
 
   # Pods for MicLocker
+pod 'Appirater'
+pod 'FirebaseAuth'
+pod 'FirebaseDatabase'
+pod 'FirebaseAnalytics'
+pod 'FirebaseCrashlytics'
 
 end
