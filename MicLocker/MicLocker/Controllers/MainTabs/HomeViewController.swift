@@ -16,16 +16,20 @@ class HomeViewController: UIViewController {
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         notAuthenticated()
     }
     
     private func notAuthenticated() {
-        if Auth.auth().currentUser == nil {
+        //FIXME: Change loginVC to not show if there is no current user
+        if Auth.auth().currentUser != nil {
             let loginVC = LogInViewController()
             loginVC.modalPresentationStyle = .fullScreen
             present(loginVC, animated: false)
+        } else {
+            
         }
+            
     }
 }

@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-4641" y="2373"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Cvv-3i-9CP">
             <objects>
-                <viewController id="pHQ-GK-n1f" sceneMemberID="viewController">
+                <viewController id="pHQ-GK-n1f" customClass="HomeViewController" customModule="MicLocker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jo2-cO-nDr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
