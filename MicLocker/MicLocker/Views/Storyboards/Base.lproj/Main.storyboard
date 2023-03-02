@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PaW-hS-7c4">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="-3870" y="2373"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore View Controller-->
         <scene sceneID="agu-ia-Tbc">
             <objects>
-                <viewController id="2GY-tS-bAb" sceneMemberID="viewController">
+                <viewController id="2GY-tS-bAb" customClass="ExploreViewController" customModule="MicLocker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U04-5f-lFR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="-3157" y="2372"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="yax-o9-BWO">
             <objects>
-                <viewController id="5TL-B4-PgR" sceneMemberID="viewController">
+                <viewController id="5TL-B4-PgR" customClass="CameraViewController" customModule="MicLocker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i7r-Ut-A6Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,10 +147,10 @@
             </objects>
             <point key="canvasLocation" x="-2386" y="2373"/>
         </scene>
-        <!--View Controller-->
+        <!--Notification View Controller-->
         <scene sceneID="BTE-R9-0hp">
             <objects>
-                <viewController id="g6e-oc-DRn" sceneMemberID="viewController">
+                <viewController id="g6e-oc-DRn" customClass="NotificationViewController" customModule="MicLocker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ElG-rv-3fc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,7 +167,7 @@
         <scene sceneID="RF5-Q8-H6T">
             <objects>
                 <navigationController id="SiQ-gQ-Qtn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person" selectedImage="person" catalog="system" id="rFn-fR-MlM"/>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" selectedImage="person" id="rFn-fR-MlM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="g7J-Fq-ihD">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -180,10 +180,10 @@
             </objects>
             <point key="canvasLocation" x="-1609" y="2373"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="XPG-cs-l2D">
             <objects>
-                <viewController id="642-D4-KzR" sceneMemberID="viewController">
+                <viewController id="642-D4-KzR" customClass="ProfileViewController" customModule="MicLocker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="saL-b1-2tT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,12 +200,11 @@
     <resources>
         <image name="bell" catalog="system" width="128" height="124"/>
         <image name="music.note.house" catalog="system" width="128" height="106"/>
-        <image name="person" width="128" height="128"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="waveform.path.badge.plus" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
-            <color red="0.58039215686274503" green="0.066666666666666666" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.57999998331069946" green="0.067000001668930054" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

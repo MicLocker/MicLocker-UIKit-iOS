@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1056651897462-ntcpqdtac4ic9gedv21nstrggrbu7fml.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1056651897462-ntcpqdtac4ic9gedv21nstrggrbu7fml</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwMQGow6QnQlcoTK2TuA8uBPEk9kIvCJo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1056651897462</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MicLocker.MicLocker</string>
+	<key>PROJECT_ID</key>
+	<string>miclockerco-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>miclockerco-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1056651897462:ios:68aec0aa13c95fd93d8d57</string>
+</dict>
+</plist>
